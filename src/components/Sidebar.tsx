@@ -18,7 +18,7 @@ export default function Sidebar() {
         shan<span className="text-gold">digital</span>.dev
       </Link>
 
-      <nav aria-label="Main" className="mt-16 hidden flex-col gap-[22px] md:flex">
+      <nav aria-label="Main" className="mt-16 hidden flex-col gap-[5.5] md:flex">
         {navLinks.map((link) => (
           <Link
             key={link.href}
@@ -33,7 +33,7 @@ export default function Sidebar() {
       <div className="hidden flex-1 md:block" />
 
       <Link href="/#contact"
-      className="rounded-lg border border-teal px-3.5 pu-2 text-sm fontseq text-teal transition-colors hover:border-gold hover:text-gold md:py-3 md:text-center">
+      className="rounded-lg border border-teal px-3.5 py-2 text-sm font-semibold text-teal transition-colors hover:border-gold hover:text-gold md:py-3 md:text-center">
         Hire Me
       </Link>
 
